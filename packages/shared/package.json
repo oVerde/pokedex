@@ -1,0 +1,8 @@
+{
+  "name": "@my/shared",
+  "main": "index.ts",
+  "private": true,
+  "dependencies": {
+    "pokenode-ts": "*"
+  }
+}

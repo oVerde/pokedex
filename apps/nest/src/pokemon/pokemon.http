@@ -1,0 +1,21 @@
+### Get Pokemon by name
+
+GET http://localhost:4000/api/pokemon/pikachu
+
+### Get Pokemon picture by its name
+
+GET http://localhost:4000/api/pokemon/image/pikachu
+
+### Get a list of pokemons
+
+GET http://localhost:4000/api/pokemon/list?page=1&limit=10
+
+### Post a login request
+
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "test@rainapp.com",
+  "password": "rainapp"
+}
